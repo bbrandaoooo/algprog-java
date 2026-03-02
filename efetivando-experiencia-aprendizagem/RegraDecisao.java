@@ -1,8 +1,8 @@
 
 public class RegraDecisao {
     public static void main(String[] args) {
-        boolean premium = true;
-        double compra = 200;
+        boolean premium = false;
+        double compra = 199.9;
         double compraDesc;
 
         if (premium == true && compra >= 200) {
