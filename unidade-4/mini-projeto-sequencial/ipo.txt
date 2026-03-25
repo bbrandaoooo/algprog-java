@@ -1,0 +1,31 @@
+========================================
+  IPO - Relatório do Laboratório
+========================================
+
+Problema: Gerar um relatório diário de um laboratório com base nas amostras processadas,
+tempo gasto e resultados válidos.
+
+---
+
+INPUT (Entrada):
+  - amostras: quantidade de amostras processadas no dia (inteiro)
+  - tempo: tempo total gasto no processamento, em minutos (decimal)
+  - validas: número de resultados válidos (inteiro)
+
+PROCESS (Processamento):
+  - mediaTempo = tempo / amostras (tempo médio por amostra)
+  - percentualValidas = (validas / amostras) * 100 (percentual de resultados válidos)
+
+OUTPUT (Saída):
+  - mediaTempo: tempo médio por amostra em minutos (decimal)
+  - percentualValidas: percentual de resultados válidos (decimal, em %)
+  - resumo formatado no console com os resultados acima
+
+---
+
+Exemplo prático:
+  Entrada:  amostras = 50, tempo = 120.0, validas = 45
+  Processo: mediaTempo = 120.0 / 50 = 2.4 min
+            percentualValidas = (45 / 50) * 100 = 90.0%
+  Saída:    "Tempo médio por amostra: 2.4 min"
+            "Percentual de resultados válidos: 90.0%"
